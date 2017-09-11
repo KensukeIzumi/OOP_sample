@@ -25,5 +25,6 @@ public class CustomBottomNavigationView extends LinearLayout {
         setOrientation(HORIZONTAL);
         inflater = LayoutInflater.from(getContext());
         setOnClickListener(null);
+        Log.d(("fejifja", "feijfeof");
     }
 }
