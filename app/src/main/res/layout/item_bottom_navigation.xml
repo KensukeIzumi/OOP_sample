@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/iconImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="8dp"
+            android:clickable="false" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/item_badge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@id/iconImageView"
+            android:layout_toRightOf="@id/iconImageView"
+            android:background="@drawable/rounded_drawable_finc_accent_7dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:textColor="@color/white_pressed"
+            android:textSize="10sp"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:textAppearance="@style/TextAppearance.Finc.Caption3"
+        android:textColor="@color/inactive"
+        android:textSize="10sp" />
+
+</LinearLayout>
