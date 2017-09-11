@@ -2,6 +2,7 @@ package com.example.kensukeizumi.oop_sample;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.widget.LinearLayout;
@@ -19,6 +20,7 @@ public class CustomBottomNavigationView extends LinearLayout {
 
     public CustomBottomNavigationView(Context context, AttributeSet attrs) {
         super(context, attrs);
+        Log.d("fjeoifj", "jfaiwejf");
         setGravity(Gravity.CENTER_HORIZONTAL);
         setOrientation(HORIZONTAL);
         inflater = LayoutInflater.from(getContext());
